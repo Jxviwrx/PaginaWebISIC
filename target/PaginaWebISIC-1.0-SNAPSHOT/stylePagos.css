@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #a0a7ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+  }
+  
+  .opciones-container {
+    background-color: #dcdaf8;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    width: 350px;
+    margin: 20px;
+  }
+  
+  h2 {
+    font-size: 24px;
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .AggPagos {
+    margin-bottom: 15px;
+  }
+  
+  .AggPagos label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    font-size: 16px;
+  }
+  
+  .AggPagos input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+  
+  .AggPagos button {
+    width: 100%;
+    padding: 12px;
+    background-color: #0311d3;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .AggPagos button:hover {
+    background-color: #000;
+  }
+  
+  
+  .AggPagos button[type="button"] {
+    background-color: #ff0800; 
+  }
+  
+  .AggPagos button[type="button"]:hover {
+    background-color: #000000;
+  }
