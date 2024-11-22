@@ -16,9 +16,10 @@
         <div class="opciones-container">
         <h2>Selecciona una opción</h2>
         <div class="opciones">
-        <a href="añadirAlumno.jps" class="opcion">Añadir Alumnos</a>
+        <a href="añadirAlumno.jsp" class="opcion">Añadir Alumnos</a>
         <a href="añadirUsuario.jsp" class="opcion">Añadir Usuarios</a>
         <a href="visualAlumno.jsp" class="opcion">Ver Alumnos</a>
+        <a href="añadirPagos.jsp" class="opcion">Ingresar Pago</a>
         <a href="PagLogin.jsp" class="opcionCS">Cerrar Sesion</a>
         </div>
     </div>
